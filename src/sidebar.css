@@ -1,0 +1,13 @@
+.sidebar {
+	padding: 40px 10px 40px 5px;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	grid-area: sidebar;
+}
+
+.sidebar button {
+	border: none;
+	padding: 10px;
+	margin: 10px;
+}

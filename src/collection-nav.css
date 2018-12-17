@@ -1,0 +1,17 @@
+.categories {
+	list-style-type: none;
+	margin: 10px 0;
+	margin-right: 35px;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.categories li {
+	float: right;
+	margin: 0;
+	padding: 10px 20px;
+}
+
+.categories li:hover {
+	background-color: rgba(128, 128, 128, 0.233);
+}
