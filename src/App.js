@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Collection from './collection';
 import Note from './note';
 import SideBar from './sidebar';
@@ -13,8 +13,8 @@ class App extends Component {
 					<header className="App-header">This is the header</header>
 					<SideBar />
 					<div className="notes-body">
-						<Collection />
-						<Note />
+						<Route path="/collection" component={Collection} />
+						<Route path="/new" component={Note} />
 					</div>
 				</div>
 			</Router>

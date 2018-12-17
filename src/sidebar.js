@@ -10,7 +10,7 @@ export default function SideBar() {
 					<b>Home</b>
 				</button>
 			</Link>
-			<Link to="/pages">
+			<Link to="/collection">
 				<button>My Pages</button>
 			</Link>
 			<Link to="/new">
