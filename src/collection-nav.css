@@ -15,3 +15,8 @@
 .categories li:hover {
 	background-color: rgba(128, 128, 128, 0.233);
 }
+
+.categories a {
+	text-decoration: none;
+	color: black;
+}
